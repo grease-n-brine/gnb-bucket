@@ -4,6 +4,9 @@ This repository groups several topic buckets into one workspace. Each bucket is 
 
 ## Buckets
 
+- `computer-architecture-bucket`
+  - Microarchitecture and low level computer engineering 
+
 - `arduino-bucket`
   - Arduino projects and examples.
 
