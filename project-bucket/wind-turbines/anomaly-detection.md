@@ -45,3 +45,60 @@ High-strength steel is used to endure large torques with cyclic loads. The struc
 **Engineering Considerations:** Small deviations from precise alignment can cause excessive stress on bearings along with damage being caused to the drivetain.
 
 The main bearing requires constant maintainance inspections alongside non-destructive testing for optimal performance throughout its operational life.
+
+**3. Main Bearing:** The main bearing supports the main shaft and lets the rotor rotate freely.
+
+The system consists of spherical roller bearings or tapered roller bearings which support both axial and radial loads.
+
+**Engineering Considerations:** Mechanical wear occurs at this component which can result in severe consequences for drivetrain failure.
+
+CMS (Conditional Monitoring System) track the conditions of bearings through temperature spikes and vibration/acoustic emission.
+
+**4. Gearbox:**
+
+The gearbox bearing consists of a spherical roller bearing and tapered roller bearing system which supports both axial and radial loads.
+
+The drivetrain design is what determines whether to use a single bearing vs dual-bearing configuration.
+
+A centralized lubricating system must be present to main optimal performance and increase lifespan of the turbine.
+
+
+**Engineering Considerations:** A gearbox failure can result in severe drivetrain damage, and this represents an area of interest in anomaly detection.
+
+The CMS can track temperature variations for this component as well as vibration emission signals.
+
+**Gearbox Bearing:**  The internal bearings within the gearbox that supports the gear shafts and reduces friction.
+
+The gearbox features journal bearings, roller bearings and needle bearings.
+
+They are able to handle rotation as well as the heavy loads while preserving ratio standards to stop misalighnment for gears.
+
+**Engineering Considerations:** Misalighnment along with excessive noise and failure can occur when performance deterioates.
+
+The components function in a lubricated environment to minimize heat dissipative energy loss.
+
+**6. Generator Shaft:** Transfers rotational power from the gearbox to generate electricity.
+
+The generator speed operates between 1000 and 1800 rpm depending on generatr specifications.
+
+Proper torque limiting coupling appears in some applications to safeguard against rapid changes in torque or load.
+
+**Engineering Considerations:** Thermal expansion as well as torsional stress and cyclic loading must be accounted for in this component. Precise alignment and high-quality materials are used to achieve extended operational performance.
+
+**7. Brake:** A known safety system to dynamically control the rotor movement.
+
+Operates through mechanical and hydraulic or electromagnetic system. Mostly for emergency situations and speed control during maintenance.
+
+**Engineering Considerations:** The safety system relies on aerodynamic braking alongside blade pitch adjustment to provide multi level protection.
+
+**8. Generator:** The last step in the energy conversion process.
+
+Most common types of generators:
+
+- Squirrel cage induction
+- Doubly-fed induction
+- Permanent magnet synchronous
+
+Generating electrical current happens through **Faraday's Law of Induction** when a magnetic field spins around a conductor.
+
+**Engineering Considerations:** The cooling system for the generator must either be air or liquid cooled to prevent overheating.
