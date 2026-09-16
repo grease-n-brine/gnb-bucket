@@ -42,3 +42,6 @@ It typically operates at 10-60 revolutions per minute, and this is known as the 
 
 High-strength steel is used to endure large torques with cyclic loads. The structure is also hollow to minimize the weight.
 
+**Engineering Considerations:** Small deviations from precise alignment can cause excessive stress on bearings along with damage being caused to the drivetain.
+
+The main bearing requires constant maintainance inspections alongside non-destructive testing for optimal performance throughout its operational life.
