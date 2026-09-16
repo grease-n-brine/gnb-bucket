@@ -23,3 +23,11 @@ Technical specifications of the Senvion MM92 turbines:
 ## 1.3 Methodology Overview:
 
 Analyzing SCADA data can involve examining different factors, like power generation levels and temperature of bearings and roto speeds. Studying different modes of failures such as gearbox wear and blade damage, can help us comprehend this change in SCADA signals.
+
+## 1.4 Main Components
+
+**1. Rotor:**
+
+This components receives the incoming wind energy and starts the energy transformation process. It consists of the hub and blade of the wind turbine
+
+- **Blades**: generates lift when wind flows through them due to a pressure difference. This causes the rotor to turn. The structure is lightweight due to being made of composite materials such as fiberglass epoxy and carbon fibre. The blades are independently 40-80 meters in length and are expected to have a utility life of 20-25 years.
