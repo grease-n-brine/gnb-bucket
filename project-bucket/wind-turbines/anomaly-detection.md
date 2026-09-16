@@ -85,4 +85,8 @@ Proper torque limiting coupling appears in some applications to safeguard agains
 
 **Engineering Considerations:** Thermal expansion as well as torsional stress and cyclic loading must be accounted for in this component. Precise alignment and high-quality materials are used to achieve extended operational performance.
 
+**7. Brake:** A known safety system to dynamically control the rotor movement.
 
+Operates through mechanical and hydraulic or electromagnetic system. Mostly for emergency situations and speed control during maintenance.
+
+**Engineering Considerations:** The safety system relies on aerodynamic braking alongside blade pitch adjustment to provide multi level protection.
