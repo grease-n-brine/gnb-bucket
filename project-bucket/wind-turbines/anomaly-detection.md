@@ -33,3 +33,5 @@ This components receives the incoming wind energy and starts the energy transfor
 - **Blades**: Generates lift when wind flows through them due to a pressure difference. This causes the rotor to turn. The structure is lightweight due to being made of composite materials such as fiberglass epoxy and carbon fibre. The blades are independently 40-80 meters in length and are expected to have a utility life of 20-25 years.
 
 - **Hub:** Attaches the multiple blade units to the main shaft. The system incorporates pitch control to allow each individual blade to turn around their axis and is used to control wind energy optimization and fatigue reduction by adjusting to the wind farm environment.
+
+**Engineering Considerations:** The design of the rotor determines the cut-in speed together with its rated power output and load characteristics. The requirement of having minimal vibration alongside an optimized efficiency depends on the proper balancingh and aerodynamic adjustments.
