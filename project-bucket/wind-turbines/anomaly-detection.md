@@ -50,6 +50,12 @@ The main bearing requires constant maintainance inspections alongside non-destru
 
 The system consists of spherical roller bearings or tapered roller bearings which support both axial and radial loads.
 
+**Engineering Considerations:** Mechanical wear occurs at this component which can result in severe consequences for drivetrain failure.
+
+CMS (Conditional Monitoring System) track the conditions of bearings through temperature spikes and vibration/acoustic emission.
+
+**4. Gearbox:**
+
 
 
 
