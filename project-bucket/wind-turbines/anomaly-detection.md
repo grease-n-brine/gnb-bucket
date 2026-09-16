@@ -67,6 +67,16 @@ A centralized lubricating system must be present to main optimal performance and
 
 The CMS can track temperature variations for this component as well as vibration emission signals.
 
-**Gearbox Bearing:** 
+**Gearbox Bearing:**  The internal bearings within the gearbox that supports the gear shafts and reduces friction.
+
+The gearbox features journal bearings, roller bearings and needle bearings.
+
+They are able to handle rotation as well as the heavy loads while preserving ratio standards to stop misalighnment for gears.
+
+**Engineering Considerations:** Misalighnment along with excessive noise and failure can occur when performance deterioates.
+
+The components function in a lubricated environment to minimize heat dissipative energy loss.
+
+
 
 
