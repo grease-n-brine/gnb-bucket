@@ -137,3 +137,9 @@ This component functions to produce efficient power while also safeguarding the 
 - SCADA data-driven diagnostics for imminent failure.
 
 - Preventive maintenance using predictive analysis.
+
+
+# 3. SCADA and Digital Twin
+
+Modern wind turbine monitoring and maintenance process combines SCADA systems with Digital Twin technology.
+
