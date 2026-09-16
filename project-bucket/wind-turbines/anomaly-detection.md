@@ -56,7 +56,17 @@ CMS (Conditional Monitoring System) track the conditions of bearings through tem
 
 **4. Gearbox:**
 
+The gearbox bearing consists of a spherical roller bearing and tapered roller bearing system which supports both axial and radial loads.
+
+The drivetrain design is what determines whether to use a single bearing vs dual-bearing configuration.
+
+A centralized lubricating system must be present to main optimal performance and increase lifespan of the turbine.
 
 
+**Engineering Considerations:** A gearbox failure can result in severe drivetrain damage, and this represents an area of interest in anomaly detection.
+
+The CMS can track temperature variations for this component as well as vibration emission signals.
+
+**Gearbox Bearing:** 
 
 
