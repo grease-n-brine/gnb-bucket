@@ -35,3 +35,10 @@ This components receives the incoming wind energy and starts the energy transfor
 - **Hub:** Attaches the multiple blade units to the main shaft. The system incorporates pitch control to allow each individual blade to turn around their axis and is used to control wind energy optimization and fatigue reduction by adjusting to the wind farm environment.
 
 **Engineering Considerations:** The design of the rotor determines the cut-in speed together with its rated power output and load characteristics. The requirement of having minimal vibration alongside an optimized efficiency depends on the proper balancingh and aerodynamic adjustments.
+
+**2. Main Shaft:** The main shaft transfers mechanical energy from the rotating rotor to the drivetrain, typically the gearbox.
+
+It typically operates at 10-60 revolutions per minute, and this is known as the low-speed shaft.
+
+High-strength steel is used to endure large torques with cyclic loads. The structure is also hollow to minimize the weight.
+
