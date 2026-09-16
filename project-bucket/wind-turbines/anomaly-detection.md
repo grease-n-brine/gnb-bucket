@@ -67,7 +67,7 @@ A centralized lubricating system must be present to main optimal performance and
 
 The CMS can track temperature variations for this component as well as vibration emission signals.
 
-**Gearbox Bearing:**  The internal bearings within the gearbox that supports the gear shafts and reduces friction.
+**5. Gearbox Bearing:**  The internal bearings within the gearbox that supports the gear shafts and reduces friction.
 
 The gearbox features journal bearings, roller bearings and needle bearings.
 
@@ -102,3 +102,44 @@ Most common types of generators:
 Generating electrical current happens through **Faraday's Law of Induction** when a magnetic field spins around a conductor.
 
 **Engineering Considerations:** The cooling system for the generator must either be air or liquid cooled to prevent overheating.
+
+# 2. Electrical System
+
+This component functions to produce efficient power while also safeguarding the turbine from failures and also enabling a connection the the electrical grid.
+
+## 2.2 Main Components: 
+
+1. Generator
+2. Power Converter (Inverter)
+3. Transformer and Grid Connection
+4. Control Systems and Sensors:
+    - Fault Detection
+    - Predictive Maintenance
+    - Performance Optimization
+
+
+## 2.3 Common Electrical Failures
+
+1. Insulation Degradation and Short Circuits
+2. Failures in Electrical Connections and Contacts
+3. Problems in Protection Devices
+
+### 2.3.2 Impact and Relevance of Failures
+
+1. **Economic:** Costs of repairs and maintenance, while the turbines need to be stopped.
+
+2. **Operational:** SCADA system stability is compromised which makes real-time monitoring and early fault detection challenging.
+
+### 2.3.3 Mitigation Strategies
+
+- Continuous monitoring systems to detect early changes in electrical parameters (temperature, impedance, etc.).
+
+- SCADA data-driven diagnostics for imminent failure.
+
+- Preventive maintenance using predictive analysis.
+
+
+# 3. SCADA and Digital Twin
+
+Modern wind turbine monitoring and maintenance process combines SCADA systems with Digital Twin technology.
+
