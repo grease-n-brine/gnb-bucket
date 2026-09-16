@@ -129,3 +129,11 @@ This component functions to produce efficient power while also safeguarding the 
 1. **Economic:** Costs of repairs and maintenance, while the turbines need to be stopped.
 
 2. **Operational:** SCADA system stability is compromised which makes real-time monitoring and early fault detection challenging.
+
+### 2.3.3 Mitigation Strategies
+
+- Continuous monitoring systems to detect early changes in electrical parameters (temperature, impedance, etc.).
+
+- SCADA data-driven diagnostics for imminent failure.
+
+- Preventive maintenance using predictive analysis.
