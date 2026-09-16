@@ -67,7 +67,7 @@ A centralized lubricating system must be present to main optimal performance and
 
 The CMS can track temperature variations for this component as well as vibration emission signals.
 
-**Gearbox Bearing:**  The internal bearings within the gearbox that supports the gear shafts and reduces friction.
+**5. Gearbox Bearing:**  The internal bearings within the gearbox that supports the gear shafts and reduces friction.
 
 The gearbox features journal bearings, roller bearings and needle bearings.
 
@@ -102,3 +102,5 @@ Most common types of generators:
 Generating electrical current happens through **Faraday's Law of Induction** when a magnetic field spins around a conductor.
 
 **Engineering Considerations:** The cooling system for the generator must either be air or liquid cooled to prevent overheating.
+
+
