@@ -118,3 +118,14 @@ This component functions to produce efficient power while also safeguarding the 
     - Performance Optimization
 
 
+## 2.3 Common Electrical Failures
+
+1. Insulation Degradation and Short Circuits
+2. Failures in Electrical Connections and Contacts
+3. Problems in Protection Devices
+
+### 2.3.2 Impact and Relevance of Failures
+
+1. **Economic:** Costs of repairs and maintenance, while the turbines need to be stopped.
+
+2. **Operational:** SCADA system stability is compromised which makes real-time monitoring and early fault detection challenging.
