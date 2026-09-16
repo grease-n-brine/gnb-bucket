@@ -30,4 +30,6 @@ Analyzing SCADA data can involve examining different factors, like power generat
 
 This components receives the incoming wind energy and starts the energy transformation process. It consists of the hub and blade of the wind turbine
 
-- **Blades**: generates lift when wind flows through them due to a pressure difference. This causes the rotor to turn. The structure is lightweight due to being made of composite materials such as fiberglass epoxy and carbon fibre. The blades are independently 40-80 meters in length and are expected to have a utility life of 20-25 years.
+- **Blades**: Generates lift when wind flows through them due to a pressure difference. This causes the rotor to turn. The structure is lightweight due to being made of composite materials such as fiberglass epoxy and carbon fibre. The blades are independently 40-80 meters in length and are expected to have a utility life of 20-25 years.
+
+- **Hub:** Attaches the multiple blade units to the main shaft. The system incorporates pitch control to allow each individual blade to turn around their axis and is used to control wind energy optimization and fatigue reduction by adjusting to the wind farm environment.
