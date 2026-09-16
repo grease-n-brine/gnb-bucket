@@ -45,3 +45,12 @@ High-strength steel is used to endure large torques with cyclic loads. The struc
 **Engineering Considerations:** Small deviations from precise alignment can cause excessive stress on bearings along with damage being caused to the drivetain.
 
 The main bearing requires constant maintainance inspections alongside non-destructive testing for optimal performance throughout its operational life.
+
+**3. Main Bearing:** The main bearing supports the main shaft and lets the rotor rotate freely.
+
+The system consists of spherical roller bearings or tapered roller bearings which support both axial and radial loads.
+
+
+
+
+
