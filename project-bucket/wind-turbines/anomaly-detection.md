@@ -103,4 +103,18 @@ Generating electrical current happens through **Faraday's Law of Induction** whe
 
 **Engineering Considerations:** The cooling system for the generator must either be air or liquid cooled to prevent overheating.
 
+# 2. Electrical System
+
+This component functions to produce efficient power while also safeguarding the turbine from failures and also enabling a connection the the electrical grid.
+
+## 2.2 Main Components: 
+
+1. Generator
+2. Power Converter (Inverter)
+3. Transformer and Grid Connection
+4. Control Systems and Sensors:
+    - Fault Detection
+    - Predictive Maintenance
+    - Performance Optimization
+
 
