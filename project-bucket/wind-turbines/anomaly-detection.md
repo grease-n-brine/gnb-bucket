@@ -77,6 +77,12 @@ They are able to handle rotation as well as the heavy loads while preserving rat
 
 The components function in a lubricated environment to minimize heat dissipative energy loss.
 
+**6. Generator Shaft:** Transfers rotational power from the gearbox to generate electricity.
 
+The generator speed operates between 1000 and 1800 rpm depending on generatr specifications.
+
+Proper torque limiting coupling appears in some applications to safeguard against rapid changes in torque or load.
+
+**Engineering Considerations:** Thermal expansion as well as torsional stress and cyclic loading must be accounted for in this component. Precise alignment and high-quality materials are used to achieve extended operational performance.
 
 
