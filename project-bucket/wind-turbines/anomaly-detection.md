@@ -90,3 +90,15 @@ Proper torque limiting coupling appears in some applications to safeguard agains
 Operates through mechanical and hydraulic or electromagnetic system. Mostly for emergency situations and speed control during maintenance.
 
 **Engineering Considerations:** The safety system relies on aerodynamic braking alongside blade pitch adjustment to provide multi level protection.
+
+**8. Generator:** The last step in the energy conversion process.
+
+Most common types of generators:
+
+- Squirrel cage induction
+- Doubly-fed induction
+- Permanent magnet synchronous
+
+Generating electrical current happens through **Faraday's Law of Induction** when a magnetic field spins around a conductor.
+
+**Engineering Considerations:** The cooling system for the generator must either be air or liquid cooled to prevent overheating.
