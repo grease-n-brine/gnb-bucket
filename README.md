@@ -5,7 +5,7 @@ This repository groups several topic buckets into one workspace. Each bucket is 
 ## Buckets
 
 - `computer-architecture-bucket`
-  - Microarchitecture and low level computer engineering 
+  - Microarchitecture and low level computer engineering .
 
 - `arduino-bucket`
   - Arduino projects and examples.
@@ -18,5 +18,20 @@ This repository groups several topic buckets into one workspace. Each bucket is 
 
 - `machine-learning-bucket`
   - Machine learning notes and example workflows.
+ 
+- `calculus-bucket`
+  - Calculus notes, concepts, and examples.
+
+- `control-theory-bucket`
+  - Control theory notes, concepts, and examples.
+
+- `project-bucket`
+  - Projects and project-related work.
+
+- `reinforcement-learning-bucket`
+  - Reinforcement learning notes and examples.
+
+- `state-estimation-bucket`
+  - State estimation such as different filters, notes, concepts, and examples.
 
 
