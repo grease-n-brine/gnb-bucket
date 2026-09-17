@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculus & Integrals: The Computer Scientist's Masterclass</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-color: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent: #38bdf8;
+            --accent-hover: #0ea5e9;
+            --success: #22c55e;
+            --error: #ef4444;
+            --border: #334155;
+            --step-bg: #0f172a;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0284c7, #0369a1);
+            padding: 3.5rem 2rem;
+            text-align: center;
+            border-bottom: 1px solid var(--border);
+        }
+
+        header h1 {
+            margin: 0 0 0.5rem 0;
+            font-size: 2.5rem;
+            color: #ffffff;
+        }
+
+        header p {
+            font-size: 1.15rem;
+            color: #e0f2fe;
+            max-width: 750px;
+            margin: 0 auto;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        section {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+        h2 {
+            color: var(--accent);
+            margin-top: 0;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 0.5rem;
+            font-size: 1.75rem;
+        }
+
+        h3 {
+            color: #7dd3fc;
+            margin-top: 1.5rem;
+        }
+
+        .analogy-box {
+            background-color: #0f172a;
+            border-left: 4px solid var(--accent);
+            padding: 1.25rem 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 0 8px 8px 0;
+            font-style: italic;
+            color: #cbd5e1;
+        }
+
+        /* Sequence Steps Styling */
+        .sequence-container {
+            margin: 1.5rem 0;
+            border-left: 2px dashed var(--border);
+            padding-left: 1.5rem;
+        }
+
+        .sequence-step {
+            position: relative;
+            margin-bottom: 1.25rem;
+            background-color: var(--step-bg);
+            padding: 1rem 1.25rem;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+        }
+
+        .sequence-step h4 {
+            margin: 0 0 0.5rem 0;
+            color: var(--accent);
+            font-size: 1.05rem;
+        }
+
+        code {
+            background-color: #0f172a;
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+            font-family: monospace;
+            color: var(--accent);
+            font-size: 0.95em;
+        }
+
+        pre {
+            background-color: #0f172a;
+            padding: 1rem;
+            border-radius: 8px;
+            overflow-x: auto;
+            border: 1px solid var(--border);
+        }
+
+        pre code {
+            background-color: transparent;
+            padding: 0;
+            color: #e2e8f0;
+        }
+
+        /* Quiz Styles */
+        .quiz-question {
+            margin-bottom: 2rem;
+            background: #0f172a;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+        }
+
+        .quiz-options button {
+            display: block;
+            width: 100%;
+            text-align: left;
+            background-color: #1e293b;
+            color: var(--text-color);
+            border: 1px solid var(--border);
+            padding: 0.85rem 1rem;
+            margin: 0.75rem 0;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-size: 1rem;
+        }
+
+        .quiz-options button:hover {
+            border-color: var(--accent);
+            background-color: #334155;
+        }
+
+        .quiz-options button.correct {
+            background-color: rgba(34, 197, 94, 0.2);
+            border-color: var(--success);
+            color: #4ade80;
+        }
+
+        .quiz-options button.incorrect {
+            background-color: rgba(239, 68, 68, 0.2);
+            border-color: var(--error);
+            color: #f87171;
+        }
+
+        .feedback {
+            margin-top: 0.75rem;
+            font-weight: bold;
+            font-size: 0.95rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2.5rem;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border);
+            margin-top: 4rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Calculus & Integrals: From Scratch</h1>
+        <p>A complete, intuitive masterclass bridging discrete programming logic with continuous reality for software engineers and data scientists.</p>
+    </header>
+
+    <div class="container">
+
+        <!-- MODULE 1 -->
+        <section>
+            <h2>Module 1: The Philosophy — Discrete vs. Continuous</h2>
+            <p>As programmers and computer scientists, we spend most of our lives in a <strong>discrete</strong> world: integers, steps in a <code>for</code> loop, individual pixels on a screen, or physics frames running at fixed intervals.</p>
+            <p>Real-world physics and continuous systems don't work in discrete jumps—they sweep smoothly through infinite points. Calculus is the mathematical framework built to handle infinity by connecting discrete steps to continuous flow.</p>
+            
+            <div class="analogy-box">
+                "Calculus is the art of taking something continuous, chopping it into infinitely small discrete pieces, and adding them back up to find the total behavior."
+            </div>
+        </section>
+
+        <!-- MODULE 2 -->
+        <section>
+            <h2>Module 2: Core Concepts & The CS Bridge</h2>
+            
+            <h3>1. From Discrete Loops to Continuous Accumulation</h3>
+            <p>When you want to find total accumulation in code, you write a loop that sums discrete steps. When time intervals shrink toward zero ($dt \to 0$), that discrete loop becomes an integral.</p>
+            
+            <div class="sequence-container">
+                <div class="sequence-step">
+                    <h4>Step 1: The Discrete Loop</h4>
+                    <p>Imagine tracking distance by checking speed every 1 second: $\text{Distance} = \text{velocity} \times \Delta t$. This forms a blocky Riemann sum approximation.</p>
+                </div>
+                <div class="sequence-step">
+                    <h4>Step 2: Shrinking the Time Step</h4>
+                    <p>As your time slice $dt$ shrinks closer to zero, your number of calculation steps approaches infinity, eliminating gaps.</p>
+                </div>
+                <div class="sequence-step">
+                    <h4>Step 3: The Integral Limit</h4>
+                    <p>The sum becomes a definite integral: $\int f(t) dt$, capturing absolute accumulated area under the curve with zero error.</p>
+                </div>
+            </div>
+
+            <h3>2. Derivatives vs. Integrals</h3>
+            <ul>
+                <li><strong>Derivatives:</strong> Breaking things down to find the instantaneous rate of change right now (e.g., computing gradients to optimize loss functions in machine learning).</li>
+                <li><strong>Integrals:</strong> Accumulating rates over time to find total outcomes (e.g., total energy generated, total distance traveled).</li>
+            </ul>
+        </section>
+
+        <!-- MODULE 3 -->
+        <section>
+            <h2>Module 3: Step-by-Step Worked Examples</h2>
+            <p>Let's put integration logic into practice with concrete problem types.</p>
+
+            <h3>Example 1: Evaluating a Definite Integral</h3>
+            <p>Calculate total data download volume where download rate is $f(t) = 3t^2$ over the time interval from $t = 0$ to $t = 2$ seconds.</p>
+            
+            <div class="sequence-container">
+                <div class="sequence-step">
+                    <h4>Step 1: Set up the integral</h4>
+                    <p>Write the definite integral with bounds: $\int_{0}^{2} 3t^2 \, dt$.</p>
+                </div>
+                <div class="sequence-step">
+                    <h4>Step 2: Find the anti-derivative</h4>
+                    <p>Using the power rule for integration, the anti-derivative of $3t^2$ is $t^3$ (since $\frac{d}{dt}(t^3) = 3t^2$).</p>
+                </div>
+                <div class="sequence-step">
+                    <h4>Step 3: Apply boundaries</h4>
+                    <p>Evaluate $t^3$ from 0 to 2: $(2^3) - (0^3) = 8 - 0 = \mathbf{8 \text{ MB}}$.</p>
+                </div>
+            </div>
+
+            <h3>Example 2: Average Value of a Signal</h3>
+            <p>Find the average temperature of a component modeled by $T(t) = 4t$ from $t = 1$ to $t = 3$ minutes.</p>
+            
+            <div class="sequence-container">
+                <div class="sequence-step">
+                    <h4>Step 1: Use the average value formula</h4>
+                    <p>Average value = $\frac{1}{b-a} \int_{a}^{b} f(t) \, dt$. Here, $\frac{1}{3-1} = \frac{1}{2}$.</p>
+                </div>
+                <div class="sequence-step">
+                    <h4>Step 2: Evaluate the integral</h4>
+                    <p>Integrate $4t$, yielding anti-derivative $2t^2$ evaluated from 1 to 3.</p>
+                </div>
+                <div class="sequence-step">
+                    <h4>Step 3: Compute final value</h4>
+                    <p>$(2(3^2)) - (2(1^2)) = 18 - 2 = 16$. Multiply by $\frac{1}{2}$ to get an average temperature of $\mathbf{8}$.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- MODULE 4: QUIZ -->
+        <section>
+            <h2>Module 4: Interactive Knowledge Check</h2>
+            <p>Test your understanding of calculus fundamentals!</p>
+
+            <!-- Question 1 -->
+            <div class="quiz-question" id="q1">
+                <p><strong>1. In computer science and physics, what does taking a definite integral physically represent?</strong></p>
+                <div class="quiz-options">
+                    <button onclick="checkAnswer(1, 0, false, 'Derivatives find rates of change, not integrals.')">A) Finding the instantaneous rate of change at a specific point</button>
+                    <button onclick="checkAnswer(1, 1, true, 'Spot on! Integration accumulates continuous quantities over intervals.')">B) Accumulating continuous quantities or rates over an interval (like summing infinite slices)</button>
+                    <button onclick="checkAnswer(1, 2, false, 'Dimensionality reduction is a linear algebra concept.')">C) Compressing high-dimensional data structures into a lower dimension</button>
+                </div>
+                <div class="feedback" id="feedback-1"></div>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="quiz-question" id="q2">
+                <p><strong>2. How do derivatives assist in training machine learning models (like neural networks)?</strong></p>
+                <div class="quiz-options">
+                    <button onclick="checkAnswer(2, 0, true, 'Correct! Gradients point in the direction of steepest ascent, guiding weight updates.')">A) Derivatives (gradients) guide optimization algorithms on how to adjust weights to minimize error</button>
+                    <button onclick="checkAnswer(2, 1, false, 'Derivatives do not handle data encryption.')">B) They encrypt training datasets securely against breaches</button>
+                    <button onclick="checkAnswer(2, 2, false, 'That is handled by signal processing and computer vision algorithms.')">C) They automatically convert raw audio files into image pixels</button>
+                </div>
+                <div class="feedback" id="feedback-2"></div>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="quiz-question" id="q3">
+                <p><strong>3. What is the anti-derivative of $3t^2$?</strong></p>
+                <div class="quiz-options">
+                    <button onclick="checkAnswer(3, 0, false, 'That would be the derivative of 3t^2.')">A) $6t$</button>
+                    <button onclick="checkAnswer(3, 1, true, 'Exactly! Taking the derivative of t^3 gives back 3t^2.')">B) $t^3$</button>
+                    <button onclick="checkAnswer(3, 2, false, 'Not quite. Remember the power rule increases the exponent by 1.')">C) $3t^3$</button>
+                </div>
+                <div class="feedback" id="feedback-3"></div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Built for engineers and problem solvers. Keep exploring infinity and building amazing systems!</p>
+    </footer>
+
+    <script>
+        function checkAnswer(questionNum, optionIndex, isCorrect, explanation) {
+            const questionDiv = document.getElementById(`q${questionNum}`);
+            const buttons = questionDiv.querySelectorAll('.quiz-options button');
+            const feedback = document.getElementById(`feedback-${questionNum}`);
+
+            // Reset buttons in this question
+            buttons.forEach((btn, idx) => {
+                btn.classList.remove('correct', 'incorrect');
+                if (idx === optionIndex) {
+                    btn.classList.add(isCorrect ? 'correct' : 'incorrect');
+                }
+            });
+
+            if (isCorrect) {
+                feedback.style.color = 'var(--success)';
+                feedback.textContent = 'Correct! ' + explanation;
+            } else {
+                feedback.style.color = 'var(--error)';
+                feedback.textContent = 'Incorrect. ' + explanation;
+            }
+        }
+    </script>
+</body>
+</html>
